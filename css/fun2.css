@@ -1,0 +1,67 @@
+html{
+    background-color: gray;
+}
+header>nav{
+width: 5%;
+  
+    height: 10%;
+    border: oldlace 5px solid;
+    position: fixed;
+}
+nav>ul{display: inline;
+}
+header>nav>ul>li{
+    list-style-type: none;
+
+}
+header>nav>ul>li>a{
+    text-decoration: none;
+}
+.jap>img{position: relative;
+    left: 47%;
+}
+.jap>p{
+    font-size: 3em;
+    position: absolute;
+    left:10% ;
+    top: 27%;
+    height: ;
+    width: 30%;
+    text-align: center;
+}
+.s>img{position: relative;
+    left: 47%;
+}
+.s>p{
+    font-size: 3em;
+    position: absolute;
+    left:10% ;
+    top: 100%;
+    height: ;
+    width: 30%;
+    text-align: center;
+}
+.her>img{position: relative;
+    left: 47%;
+}
+.her>p{
+    font-size: 3em;
+    position: absolute;
+    left:10% ;
+    top: 200%;
+    height: ;
+    width: 30%;
+    text-align: center;
+}
+.heli>img{position: relative;
+    left: 47%;
+}
+.heli>p{
+    font-size: 3em;
+    position: absolute;
+    left:10% ;
+    top: 300%;
+    height: ;
+    width: 30%;
+    text-align: center;
+}

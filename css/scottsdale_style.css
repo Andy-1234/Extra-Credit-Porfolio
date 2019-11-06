@@ -1,0 +1,147 @@
+.layout{
+    display: block;
+    max-width:100% ;
+    min-width: 100%;
+    height: 80%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.header2{
+    position: absolute;
+    top: 5%;
+    left: 39%;
+    width: 15%;
+    height: 10%;
+    border: black 5px ridge ;
+    text-align: center;
+    
+}
+body{
+    background-image: url(../images/scott_back.jpg);
+    background-size: cover;
+}
+body>header>nav{
+    border: black 5px dotted;
+    max-width: 13%;
+    position: fixed;
+}
+body>header>nav>a{
+    font-family: wes;
+    text-decoration: none ;
+    color: black;
+
+ 
+    font-size: 2em
+}
+/*body*/ article{
+    margin-left: 16%;
+    margin-right: 21%;
+    border: 1px black solid;
+    position: absolute;
+    overflow-wrap: break-word;
+    top: 20%;
+    width: 60%;
+    height: 20%;
+    font-family: texas;
+    font-size:30px;
+    box-sizing: border-box;
+}
+article>p{
+    box-sizing: border-box;
+    font-family: wes
+}
+
+.p1 {position: absolute;
+    
+    margin-left: 16%;
+    top: 40%;
+    height:50% ;
+    width:60% ;
+    z-index: 3;
+}
+.p1>img{
+    height: 68;
+    width: 33.5%;
+}
+
+.p2{position: absolute;
+    top: 65%;
+    left: 30%;
+    z-index: 2;
+ 
+}    
+.p2>img{
+    height: 50%;
+    width: 120%;
+}
+
+.p3{position: absolute;
+    top: 89%;
+    right: 21%;
+    z-index: 1;
+}   
+/*.p3>img{
+  /*  height: ;
+    width: ;*/
+    /*clip: rect(100px, 100px, 100px, 100px);
+    position: absolute;
+    -webkit-clip-path:inset(2px, 2px, 2px, 2px);
+            clip-path:inset(2px, 2px, 2px, 2px);
+}*/
+.details{
+    margin-left: 16%;
+    margin-right: 21%;
+    border: 1px black solid;
+    position: absolute;
+    top: 127.59%;
+    width: 60%;
+    height: 20%;
+    font-family: wes;
+    font-size: 30px;
+    box-sizing: border-box
+}
+.p4{position: absolute;
+    top: 147.65%;
+    right: 30%;
+}
+.p4>img{
+    height: 250%;
+    width: 250%;
+}
+.p5{position: absolute;
+    top: 169.8%;
+    left: 40%;
+}
+.p5>img{
+    height:40%;
+    width: 40%
+}
+
+.p6{
+    position: absolute;
+    top: 205%;
+    left: 14.4%
+}
+.p6>img{
+    height: 30%;
+    width: 30%;
+}
+
+
+
+
+@font-face {
+    font-family: wes;
+    src: url(fonts/western.otf) format(opentype);
+    src: url(fonts/western.woff);
+}
+@font-face{
+    font-family: texas;
+    src: url(fonts/texas.otf) format(opentype);
+}
+
+
+
+
+
+
